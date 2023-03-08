@@ -1,0 +1,30 @@
+import React from 'react'
+import Image from "next/image";
+import banner from "../public/images/Jeannie-Phan-Illustration-Branding-Airbnb-Go-Near.jpg";
+
+function Banner() {
+  return (
+    <div className="box relative h-[300px] sm:h-[400px] lg:h-[500px]
+    xl:h-[600px] 2xl:h-[700px]">
+        <Image src={banner} alt="banner" fill style={{ objectFit: 'cover'}} />
+    <div className="absolute top-1/2 w-full text-center">
+      <p
+        className="text-gray-900 font-bold mb-10 animate-bounce sm:text-lg"
+        style={{ fontSize: "40px" }}
+      >
+        Not sure where to go? Prefect,
+      </p>
+      <button
+        className="text-purple-500 bg-white px-10 py-4 shadow-md
+      rounded-full font-bold my-3 hover:shadow-xl active:scale-90 
+      transition duration-150"
+      >
+        Im flexible
+      </button>
+    </div>
+
+    </div>
+  )
+}
+
+export default Banner
