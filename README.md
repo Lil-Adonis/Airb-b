@@ -9,22 +9,8 @@
   </p>
   
 <!-- Badges -->
-<a href="https://airbnb-sclone.vercel.app" target="_blank">![](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)</a>
-![](https://img.shields.io/badge/Maintained-Yes-indigo)
-![](https://img.shields.io/github/forks/SashenJayathilaka/Airbnb-Build.svg)
-![](https://img.shields.io/github/stars/SashenJayathilaka/Airbnb-Build.svg)
-![](https://img.shields.io/github/issues/SashenJayathilaka/Airbnb-Build)
-![](https://img.shields.io/github/last-commit/SashenJayathilaka/Airbnb-Build)
 
-<h4>
-    <a href="https://airbnb-sclone.vercel.app">View Demo</a>
-  <span> · </span>
-    <a href="https://github.com/SashenJayathilaka/Airbnb-Build/blob/master/README.md">Documentation</a>
-  <span> · </span>
-    <a href="https://github.com/SashenJayathilaka/Airbnb-Build/issues">Report Bug</a>
-  <span> · </span>
-    <a href="https://github.com/SashenJayathilaka/Airbnb-Build/issues">Request Feature</a>
-  </h4>
+
 </div>
 
 <br />
@@ -71,13 +57,6 @@
   </ul>
 </details>
 
-<details>
-<summary>Backend (Api)</summary>
-  <ul>
-    <li><a href="https://firebase.google.com">Node Js</a></li>
-        <li><a href="https://firebase.google.com">mongodb</a></li>
-  </ul>
-</details>
 
 <br />
 
@@ -169,7 +148,6 @@ Add the ``@tailwind`` directives for each of Tailwind’s layers to your ``./sty
 ```
 Install dependencies
 
-<a href="https://github.com/SashenJayathilaka/Airbnb-Build/blob/master/package.json" target="_blank">🔶 Dependency Info</a>
 
 <!-- Run Locally -->
 ### :running: Run Locally
@@ -179,13 +157,13 @@ Install dependencies
 Clone the project
 
 ```bash
-  git clone https://github.com/SashenJayathilaka/Airbnb-Build.git
+  git clone https://github.com/Lil-Adonis/Airb-b.git
 ```
 
 change directory
 
 ```bash
-  cd Airbnb-Build
+  cd airbnb
 ```
 
 Install dependencies
@@ -237,9 +215,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## :handshake: Contact
 
-Sashen - [@twitter_handle](https://twitter.com/SashenHasinduJ) - sashenjayathilaka95@gmail.com
+Lil Adonis - [@twitter_handle](https://twitter.com/LilAdonise) - adenugaib24@gmail.com
 
-Project Link: [https://github.com/SashenJayathilaka/Airbnb-Build.git](https://github.com/SashenJayathilaka/Airbnb-Build.git)
+
 
 
 <br />
