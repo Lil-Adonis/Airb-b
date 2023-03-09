@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {
   SearchIcon,
   GlobeAltIcon,
@@ -8,6 +8,7 @@ import {
 import Image from 'next/image'
 
 const Header = () => {
+  const [searchInput, setSearchInput] = useState("");
   return (
     <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
       {/* Left*/}
@@ -23,6 +24,8 @@ const Header = () => {
       {/*Middle -- Search section*/}
       <div className="flex items-center border-2 rounded-full py-2 md:border-2 md:shadow-sm">
         <input
+        value={searchInput}
+        onChange={(e)=> setSearchInput (e.target.value)}
           className="flex-grow pl-5 bg-transparent outline-none text-sm text-gray-500 placeholder-gray-400"
           type="text"
           placeholder="start your search"
@@ -45,6 +48,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+      {searchInput && <h1>Hello World</h1>}
     </header>
   )
 }
