@@ -71,7 +71,7 @@ const Header: React.FC<HeaderProps> = ({ placeholder }) => {
         onChange={(e)=> setSearchInput (e.target.value)}
           className="flex-grow pl-5 bg-transparent outline-none text-sm text-gray-500 placeholder-gray-400"
           type="text"
-          placeholder={placeholder || "Start your Search"}
+          placeholder={placeholder || "Enter search"}
         />
         <SearchIcon
           className="hidden md:inline-flex h-8 bg-red-400 text-white rounded-full

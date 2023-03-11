@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import { useRouter } from "next/router";
 import { format } from "date-fns";
 import InfoCard from "../components/InfoCard";
+import MapBox from "../components/MapBox";
 
 type SearchProps = {
   searchResults: any;
@@ -62,6 +63,7 @@ const Search: React.FC<SearchProps> = ({ searchResults }) => {
         </section>
 
         <div className="box hidden xl:inline-flex xl:min-w-[600px]">
+        <MapBox searchResults={searchResults} />
         </div>
       </main>
       <Footer />
