@@ -15,7 +15,7 @@ const SmallCard: React.FC<SmallCardProps> = ({ img, location, distance }) => {
     ease-out "
     >
       <div className="relative h-16 w-16">
-        <Image src={img} alt="rounded" fill className="rounded-lg" />
+        <Image src={img} alt="" fill className="rounded-lg" />
       </div>
 
       <div className="">
