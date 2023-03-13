@@ -5,10 +5,8 @@
 # Airbnb Clone with REACT.JS!
   
   <p>
-  Airbnb REACT.JS (Mapbox Integration - Next.js, Tailwind CSS, Maps)
+  Airbnb REACT.JS (Mapbox Integration - Next.js, Tailwind CSS, Mappox)
   </p>
-  
-<!-- Badges -->
 
 
 </div>
@@ -211,7 +209,6 @@ To deploy this project run
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## :handshake: Contact
 
